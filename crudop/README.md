@@ -25,3 +25,8 @@ src/store: Contains the Redux store configuration.
 src/App.js: The main parent component that integrates all subcomponents.
 package.json: Holds all the libraries and packages required for this project.
 App.css: Contains CSS settings.
+
+# Env Version
+
+Node version - 20.10.0
+Npm version - 10.2.5
