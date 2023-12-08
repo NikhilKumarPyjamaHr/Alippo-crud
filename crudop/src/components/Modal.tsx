@@ -65,7 +65,7 @@ const Modal: React.FC<ModalProps> = ({
 
   useEffect(() => {
     setFormData({
-      name: dataChange?.name,
+      name: dataChange?.name !== null ? dataChange?.name : "",
     });
   }, [dataChange]);
 
