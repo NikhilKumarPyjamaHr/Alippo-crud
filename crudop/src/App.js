@@ -4,9 +4,10 @@ import Table from "./components/Table.tsx";
 import { connect } from "react-redux";
 import { changeTableData, saveApiData } from "./store/actions/crudActions.js";
 import Modal from "./components/Modal.tsx";
+import { APIURL } from "./common/constants.js";
 
 function App(props) {
-  const apiUrl = "https://assets.alippo.com/catalog/static/data.json";
+  const apiUrl = APIURL;
   const [openModal, setOpenModal] = useState(false);
   const [dataChange, setDataChange] = useState({});
   const [captureIndex, setCaptureIndex] = useState();
