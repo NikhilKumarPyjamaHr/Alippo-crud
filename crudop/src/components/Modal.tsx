@@ -125,6 +125,7 @@ const Modal: React.FC<ModalProps> = ({
                 value={formData.name}
                 onChange={handleInputChange}
                 required
+                inputProps={{ maxLength: 25 }}
               />
 
               <CustomDiv>
